@@ -1,0 +1,120 @@
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('assets/undraw_interview_rmcf.svg') no-repeat;
+    background-position: right;    
+}
+
+/* Layout Login */
+
+#conteudo-esq{
+    position: relative;
+    z-index: 1;
+}
+
+.pagina-login {
+    background-color: #4E5BEE;
+    width: 600px;
+    height: 100vh;
+    float: left;
+}
+
+.logo {
+    width: 177px;
+    height: 69.79px;
+    position: absolute;
+    top: 229px;
+    left: 212px;
+    
+}
+
+#email {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 393px;
+    left: 150px;
+    background: none;
+    border: solid 2px white;
+    border-radius: 50px;
+} 
+
+#senha {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 461px;
+    left: 150px;
+    background: none;
+    border: solid 2px white;
+    border-radius: 50px;
+}
+
+#entrar{
+    font-size: 18px;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 537px;
+    left: 150px;
+    background: white;
+    border: solid 2px white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#entrar:hover{
+    color: white;
+    background-color: rgb(151, 144, 144);
+}
+
+a, a:link {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+#rodape {
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 700px;
+    left: 150px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Imagem lateral */
+
+#img-lateral{
+    position: relative;
+    top: 0px;
+    right: 100px;
+    width: 100%;
+    float: right;
+    z-index: 0;
+}
+
+/* Icones email e senha */
+
+#icon-email{
+    width: auto;
+    position: relative;
+    top: 408px;
+    left: 170px;
+}
+
+#icon-senha{
+    width: auto;
+    position: relative;
+    top: 475px;
+    left: 150px;
+}
